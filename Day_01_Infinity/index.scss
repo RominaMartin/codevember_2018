@@ -1,0 +1,108 @@
+$titleColor: #757780;
+$numberColor: #f0a2a2;
+$nameColor: #333;
+$backgroundColor: #eee;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+
+#container {
+  position: relative;
+  background: #757780;
+  height: 80vh;
+  width: 80vh;
+  margin: 10vh auto;
+  border-radius: 50%;
+  animation: infiniteDraw 4s linear infinite; 
+  transform-origin: center;
+}
+
+#line {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 95%;
+  height: 95%;
+  border-radius: 50%;
+  border: 2vh solid #333;
+  border-right: 2vh solid $titleColor;
+  border-bottom: 2vh solid $titleColor;
+  transform: rotate(-45deg);
+}
+
+#pencil {
+  position: absolute;
+  width: 20%;
+  height: 100%;
+  left: 40%;
+}
+
+#rubber {
+  position: relative;
+  background: $numberColor;
+  height: 10%;
+  width: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#metal {
+  position: relative;
+  background: #c4d5df;
+  height: 12%;
+  width: 100%;
+}
+
+#crayon {
+  position: relative;
+  background: #ffd879;
+  height: 64%;
+  width: 100%;
+}
+
+#crayon_center {
+  position: absolute;
+  background: #fdcc66;
+  height: 100%;
+  width: 30%;
+  left: 35%;
+}
+
+#crayon_top {
+  border-top: 8vh solid #faeee0;
+  border-left: 6vh solid transparent;
+  border-right: 6vh solid transparent;
+}
+
+#crayon_tip {
+    position: relative;
+    border-top: 3vh solid #222;
+    border-right: 2vh solid transparent;
+    border-left: 2vh solid transparent;
+    width: 0vh;
+    left: 6vh;
+    top: -1px;
+}
+
+@keyframes infiniteDraw {
+  from { transform: rotate(360deg) }
+  to   { transform: rotate(0deg) }
+}
