@@ -1,0 +1,84 @@
+body {
+    background: #eee;
+    overflow: hidden;
+    font-family: "Quicksand";
+  }
+  
+  .header {
+    position: absolute;
+    left: 10px;
+    top: 10px;
+  }
+  .header h1, .header h2 {
+    margin: 0;
+  }
+  .header h1 {
+    color: #757780;
+  }
+  .header .number {
+    color: #CCC;
+  }
+  .header .type {
+    color: #333;
+  }
+  .header .social a img {
+    margin-top: 10px;
+    height: 1.5em;
+  }
+  
+  #content {
+    position: absolute;
+    left: 20%;
+    top: 50px;
+    z-index: 1;
+    -webkit-transform-origin: center;
+            transform-origin: center;
+    -webkit-animation: rotate steps(4, end) infinite 6s;
+            animation: rotate steps(4, end) infinite 6s;
+  }
+  
+  #over {
+    position: absolute;
+    left: 20%;
+    top: 50px;
+    z-index: 2;
+  }
+  
+  @-webkit-keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+    }
+    50% {
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+    }
+    75% {
+      -webkit-transform: rotate(270deg);
+              transform: rotate(270deg);
+    }
+  }
+  
+  @keyframes rotate {
+    0% {
+      -webkit-transform: rotate(0deg);
+              transform: rotate(0deg);
+    }
+    25% {
+      -webkit-transform: rotate(90deg);
+              transform: rotate(90deg);
+    }
+    50% {
+      -webkit-transform: rotate(180deg);
+              transform: rotate(180deg);
+    }
+    75% {
+      -webkit-transform: rotate(270deg);
+              transform: rotate(270deg);
+    }
+  }
+  
