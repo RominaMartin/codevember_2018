@@ -1,0 +1,59 @@
+$titleColor: #757780;
+$numberColor: #f0a2a2;
+$nameColor: #333;
+$backgroundColor: #eee;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+
+#content {
+  position: relative;
+  // background: #2B3057;
+  height: 80vh;
+  width: 80vh;
+  margin: 10vh auto;
+  border-radius: 50%;
+  border: 5px solid #57559E;
+  transform-origin: center;
+  animation: backgroundOnMusic linear infinite 1s;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
+}
+
+#headphones, #dj {
+  animation: moveOnMusic linear infinite alternate .5s;
+}
+
+@keyframes moveOnMusic {
+  from{transform: rotate(0deg) translateY(-2px)}
+  to{transform: rotate(3deg)}
+}
+
+@keyframes backgroundOnMusic {
+  
+  25% {background: #274743}
+  50% {background: #2B3057}
+  75% {background: #250628}
+  100%{background: #1A090D}
+}
