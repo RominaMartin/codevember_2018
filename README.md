@@ -10,7 +10,8 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **4** | :cloud: Sky | [Sky](https://codepen.io/RominaMartin/full/XyJXxW/) | - |
 | **5** | :headphones: Music | [Music](https://codepen.io/RominaMartin/full/OaVWqM/) | :heavy_check_mark: |
 | **6** | :spider: Web | [Web](https://codepen.io/RominaMartin/full/pQjrqV/) | :heavy_check_mark: |
-| **7** | :ocean: Sea | [Sea](https://codepen.io/RominaMartin/full/xQZqyM/) | - |
+| **7** | :ocean: Sea | [Sea](https://codepen.io/RominaMartin/full/xQZqyM/) | :heavy_check_mark: |
+| **8** | :heart_eyes_cat: Cat | [Cat](https://codepen.io/RominaMartin/full/yQOjye/) | - |
 
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/Xqmkdo/)

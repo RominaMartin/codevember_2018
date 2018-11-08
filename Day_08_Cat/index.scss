@@ -1,0 +1,257 @@
+$titleColor: #757780;
+$numberColor: #cbe5d8;
+$nameColor: #33282f;
+$backgroundColor: #eee;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+
+#content {
+  width: 70vh;
+  height: 70vh;
+  background: #cbe5d8;
+  border-radius: 50%;
+  position: relative;
+  margin: 100px auto;
+  border: 1px solid #bbb;
+  clip-path: circle(50% at center);
+}
+
+.cat {
+  width: 100%;
+  height: 100%;
+  animation: hide 3s ease-in-out infinite alternate;
+}
+
+.cat_body {
+  width: 60%;
+  height: 70%;
+  position: absolute;
+  left: 20%;
+  bottom: 0px;
+  background: #fff7ec;
+  clip-path: inset(0 0 0 0);
+  z-index: 1;
+}
+
+.left_eye {
+  width: 18px;
+  height: 20px;
+  background: #fff7ec;
+  border-radius: 50%;
+  position: relative;
+  top: 25%;
+  left: 25%;
+  z-index: 1;
+  animation: blink 3s linear infinite;
+}
+
+.mark {
+  background: #33282f;
+  width: 25vh;
+  height: 25vh;
+  position: absolute;
+  border-radius: 40% ;
+  left: -5vh;
+  top: -5vh;
+  z-index: -1;
+}
+
+.right_eye {
+  width: 18px;
+  height: 20px;
+  background: #33282f;
+  border-radius: 50%;
+  position: absolute;
+  top: 25%;
+  right: 25%;
+  animation: blink 3s linear infinite;
+}
+
+.nose {
+  width: 10%;
+  height: 20px;
+  background: #fb807b;
+  position: absolute;
+  border-radius: 25%;
+  top: 40%;
+  left: 45%;
+}
+
+.nose::after {
+  content: "";
+  width: 25%;
+  height: 100%;
+  background: #33282f;
+  position: absolute;
+  left: 40%;
+  top: 20px;
+}
+
+.nose::before {
+  content: "";
+  width: 200%;
+  height: 25%;
+  background: #33282f;
+  position: absolute;
+  left: -50%;
+  top: 40px;
+  border-radius: 0 0 55% 55%;
+  border: 2px solid #33282f;  
+}
+
+.left_ear {
+  width: 10%;
+  height: 20%;
+  background-color: #33282f;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  top: 15%;
+  left: 20%;
+}
+
+.left_ear::before {
+  content: "";
+  width: 60%;
+  height: 65%;
+  background: white;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+
+.right_ear {
+  width: 10%;
+  height: 20%;
+  background-color: #fff7ec;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  top: 15%;
+  right: 20%;
+}
+
+.right_ear::before {
+  content: "";
+  width: 60%;
+  height: 65%;
+  background: #33282f;
+  border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+}
+
+.left_moustache {
+  width: 30%;
+  height: 4px;
+  background: #33282f;
+  position: absolute;
+  top: 60%;
+  left: 15%;
+  z-index: 2;
+  border-radius: 4px;
+}
+.left_moustache::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #33282f;
+  position: absolute;
+  top: 150%;
+  right: 0;
+  z-index: 2;
+  border-radius: 4px;
+  transform: rotate(-5deg);
+}
+.left_moustache::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #33282f;
+  position: absolute;
+  top: -150%;
+  right: 0;
+  z-index: 2;
+  border-radius: 4px;
+  transform: rotate(5deg);
+}
+
+.right_moustache {
+  width: 30%;
+  height: 4px;
+  background: #33282f;
+  position: absolute;
+  top: 60%;
+  right: 15%;
+  z-index: 2;
+  border-radius: 4px;
+}
+.right_moustache::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #33282f;
+  position: absolute;
+  top: 150%;
+  right: 0;
+  z-index: 2;
+  border-radius: 4px;
+  transform: rotate(5deg);
+}
+.right_moustache::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background: #33282f;
+  position: absolute;
+  top: -150%;
+  right: 0;
+  z-index: 2;
+  border-radius: 4px;
+  transform: rotate(-5deg);
+}
+
+.heart {
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 10%;
+  font-size: 2em;
+  color: #ca1c24;
+  animation: beat 3s ease-in-out alternate infinite;
+}
+
+@keyframes hide {
+  from{transform: translateY(0)}
+  to{transform: translateY(20vh)}
+}
+
+@keyframes beat {
+  from{opacity: 1;}
+  to{opacity: 0.2; font-size: 1.75em}
+}
+
+@keyframes blink {
+  70%  { transform: scale(1) }
+  80%  { transform: scale(1.5, .1)}
+  100% { transform: scale(1)}
+}
