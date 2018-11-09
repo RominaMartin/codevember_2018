@@ -1,0 +1,221 @@
+body {
+  background: #f6f4b6;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+body body {
+  background: #f6f4b6;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+body .header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+body .header h1,
+body .header h2 {
+  margin: 0;
+}
+body .header h1 {
+  color: #757780;
+}
+body .header .number {
+  color: #f3d455;
+}
+body .header .type {
+  color: #a5d045;
+}
+body .header .social a img {
+  margin-top: 10px;
+  height: 1.5em;
+}
+body .content {
+  width: 60%;
+  position: absolute;
+  bottom: 0px;
+  left: 25%;
+}
+body .content {
+  -webkit-animation: swing ease-in 2s infinite alternate;
+          animation: swing ease-in 2s infinite alternate;
+}
+body #rightArm,
+body #leftArm {
+  -webkit-animation: armSwing ease-in 2s infinite alternate;
+          animation: armSwing ease-in 2s infinite alternate;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+body #leftArm {
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+body #rightFoot,
+body #leftFoot {
+  -webkit-animation: armSwing ease-in 2s infinite alternate;
+          animation: armSwing ease-in 2s infinite alternate;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+@-webkit-keyframes armSwing {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+@keyframes armSwing {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+@-webkit-keyframes swing {
+  0% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  25% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
+  }
+  75% {
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
+  }
+}
+@keyframes swing {
+  0% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  25% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
+  }
+  75% {
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
+  }
+}
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.header h1, .header h2 {
+  margin: 0;
+}
+.header h1 {
+  color: #757780;
+}
+.header .number {
+  color: #f3d455;
+}
+.header .type {
+  color: #a5d045;
+}
+.header .social a img {
+  margin-top: 10px;
+  height: 1.5em;
+}
+
+.content {
+  width: 60%;
+  position: absolute;
+  bottom: 0px;
+  left: 25%;
+}
+
+.content {
+  -webkit-animation: swing ease-in 2s infinite alternate;
+          animation: swing ease-in 2s infinite alternate;
+}
+
+#rightArm, #leftArm {
+  -webkit-animation: armSwing ease-in 2s infinite alternate;
+          animation: armSwing ease-in 2s infinite alternate;
+  -webkit-transform-origin: left;
+          transform-origin: left;
+}
+
+#leftArm {
+  -webkit-transform-origin: right;
+          transform-origin: right;
+}
+
+#rightFoot, #leftFoot {
+  -webkit-animation: armSwing ease-in 2s infinite alternate;
+          animation: armSwing ease-in 2s infinite alternate;
+  -webkit-transform-origin: top;
+          transform-origin: top;
+}
+
+@keyframes armSwing {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  25% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+  50% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  75% {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+@keyframes swing {
+  0% {
+    -webkit-transform: translateX(-5px);
+            transform: translateX(-5px);
+  }
+  25% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  50% {
+    -webkit-transform: translateX(-3px);
+            transform: translateX(-3px);
+  }
+  75% {
+    -webkit-transform: translateX(3px);
+            transform: translateX(3px);
+  }
+}

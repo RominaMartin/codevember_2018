@@ -1,0 +1,64 @@
+$titleColor: #757780;
+$numberColor: #f3d455;
+$nameColor: #a5d045;
+$backgroundColor: #f6f4b6;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+
+.content {
+  width: 60%;
+  position: absolute;
+  bottom: 0px;
+  left: 25%;
+}
+
+.content {
+  animation: swing ease-in 2s infinite alternate;
+}
+
+#rightArm, #leftArm {
+  animation: armSwing ease-in 2s infinite alternate;
+  transform-origin: left;
+}
+
+#leftArm {
+  transform-origin: right;
+}
+
+#rightFoot, #leftFoot {
+  animation: armSwing ease-in 2s infinite alternate;
+  transform-origin: top;
+}
+
+@keyframes armSwing {
+   0% { transform: rotate(0deg);}
+  25% { transform: rotate(2deg); }
+  50% { transform: rotate(0deg); }
+  75% { transform: rotate(2deg); }
+}
+
+@keyframes swing {
+  0% { transform: translateX(-5px)}
+  25% { transform: translateX(0); }
+  50% { transform: translateX(-3px); }
+  75% { transform: translateX(3px); }
+}
