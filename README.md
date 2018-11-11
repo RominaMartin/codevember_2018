@@ -13,7 +13,8 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **7** | :ocean: Sea | [Sea](https://codepen.io/RominaMartin/full/xQZqyM/) | :heavy_check_mark: |
 | **8** | :heart_eyes_cat: Cat | [Cat](https://codepen.io/RominaMartin/full/yQOjye/) | :heavy_check_mark: |
 | **9** | :green_heart: Green | [Green](https://codepen.io/RominaMartin/full/vQKaBK/) | :heavy_check_mark: |
-| **10** | :apple: Apple | [Green](https://codepen.io/RominaMartin/full/XyKwoy/) | - |
+| **10** | :apple: Apple | [Green](https://codepen.io/RominaMartin/full/XyKwoy/) | :heavy_check_mark: |
+| **11** | :art: RGB | [RGB](https://codepen.io/RominaMartin/full/KrgXqW/) | - |
 
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/Xqmkdo/)

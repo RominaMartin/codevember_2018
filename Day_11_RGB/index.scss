@@ -1,0 +1,363 @@
+$red: #e6575a;
+$green: #4da45a;
+$blue: #4d57f3;
+
+$titleColor: #757780;
+$numberColor: $red;
+$nameColor: $blue;
+$backgroundColor: #ccc;
+
+body {
+  background: $backgroundColor;
+  overflow-y: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1,
+  h2 {
+    margin: 0;
+  }
+
+  h1 {
+    color: $titleColor;
+  }
+  .number {
+    color: $numberColor;
+  }
+  .type {
+    color: $nameColor;
+  }
+  .social a img {
+    margin-top: 10px;
+    height: 1.5em;
+  }
+}
+
+.content {
+  width: 60%;
+  height: 70vh;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  max-height: 600px;
+  min-width: 500px;
+}
+
+.mixer {
+  width: 25%;
+  height: 60%;
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+
+  .base_top {
+    content: "";
+    position: absolute;
+    bottom: 30%;
+    left: 9.5%;
+    height: 10%;
+    width: 90%;
+    background: #0c0c13;
+    border-radius: 4px;
+
+    &::after {
+      content: "";
+      position: absolute;
+      top: 30%;
+      left: 10%;
+      height: 40%;
+      width: 80%;
+      background: #141520;
+      border-radius: 4px;
+    }
+  }
+
+  .base {
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+    width: 100%;
+    height: 30%;
+    background: #0c0c13;
+    clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+
+    &::after {
+      content: "";
+      width: 80%;
+      height: 100%;
+      background: #141520;
+      position: absolute;
+      left: 10%;
+      top: 0;
+      clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    }
+
+    &::before {
+      content: "";
+      width: 90%;
+      height: 100%;
+      background: #393b4a;
+      position: absolute;
+      left: 5%;
+      top: 0;
+      clip-path: polygon(10% 0%, 90% 0%, 100% 100%, 0% 100%);
+    }
+
+    .switch {
+      position: absolute;
+      left: 40%;
+      top: 40%;
+      width: 20%;
+      height: auto;
+      padding-bottom: 20%;
+      border-radius: 50%;
+      background: #373845;
+      z-index: 1;
+      transform: rotate(-80deg);
+      transition: transform .2s;
+      transform-origin: center;
+      
+      &:hover {cursor: pointer};
+      
+      &.mixerOn {
+        transform: rotate(0deg);
+      }
+
+      &::before {
+        content: "";
+        width: 60%;
+        height: auto;
+        padding-bottom: 60%;
+        position: absolute;
+        left: 20%;
+        top: 20%;
+        border-radius: 50%;
+        background: #606368;
+      }
+      &::after {
+        content: "";
+        width: 30%;
+        height: auto;
+        padding-bottom: 30%;
+        position: absolute;
+        left: 45%;
+        top: 25%;
+        border-radius: 50%;
+        background: #888b8b;
+      }
+    }
+  }
+
+  .glass {
+    width: 80%;
+    left: 10%;
+    height: 60%;
+    bottom: 40%;
+    position: absolute;
+    background: #c1d9e1;
+    border-radius: 5px 5px 25% 25%;
+    border: 4px solid #fff;
+
+    &.shaking {
+      animation: shake 0.75s linear 1;
+    }
+
+    &::before {
+      content: "";
+      position: absolute;
+      right: calc(-20% - 8px);
+      top: 10%;
+      height: 65%;
+      background-color: #b0c6c9;
+      width: 20%;
+      border: 4px solid #fff;
+
+      border-radius: 0 55% 50% 0;
+      border-left: none;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      right: calc(-10% - 8px);
+      top: 20%;
+      height: 45%;
+      background-color: $backgroundColor;
+      width: 10%;
+      border: 4px solid #fff;
+
+      border-radius: 0 55% 50% 0;
+      border-left: none;
+    }
+  }
+
+  #filling {
+    position: absolute;
+    // height: 75%;
+    width: 100%;
+    // background: $red;
+    border-radius: 0 0 25% 25%;
+    bottom: 0;
+    transition: height 2s;
+    transition-delay: 2s;
+  }
+}
+
+.bottles {
+  width: 45%;
+  height: 100%;
+  position: absolute;
+  display: inline-flex;
+  bottom: 0;
+  left: 55%;
+
+  .bottle {
+    position: relative;
+    width: 14%;
+    height: 22%;
+    top: 75%;
+    margin-left: 14%;
+    z-index: 1;
+    background: #c1d9e1;
+    border: 3px solid #fff;
+    border-top: none;
+    border-radius: 0 0 10% 10%;
+    // animation: pour 4s linear alternate infinite;
+    transition: transform 3s;
+  }
+
+  .pour {
+    &.red {
+      transform: translate(-220%, -280%) rotate(-95deg);
+    }
+    &.green {
+      transform: translate(-400%, -280%) rotate(-95deg);
+    }
+    &.blue {
+      transform: translate(-590%, -280%) rotate(-95deg);
+    }
+  }
+
+  .filling {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 80%;
+    border-radius: 0 0 10% 10%;
+
+    &.red {
+      background: $red;
+    }
+    &.green {
+      background: $green;
+    }
+    &.blue {
+      background: $blue;
+    }
+  }
+}
+
+.spill {
+  position: absolute;
+  width: 25%;
+  height: 72%;
+  bottom: 0;
+  left: 0;
+  border-radius: 0 50% 0 0;
+  transition: transform 3s;
+}
+
+.red .spill {
+  background: $red;
+}
+.green .spill {
+  background: $green;
+}
+.blue .spill {
+  background: $blue;
+}
+
+.spill.active {
+  transform: translatey(-80%);
+}
+
+#reset {
+  position: absolute;
+  right: 15%;
+  top: 20%;
+  background: #666;
+  width: 10%;
+  height: 5%;
+  border-radius: 5px;
+  box-shadow: 0 0 4px #666;
+  padding: 2.5%;
+  z-index: 1;
+  font-weight: bold;
+  color: #eee;
+  letter-spacing: 2px;
+  text-align: center;
+  display: none;
+
+  &:hover {
+    cursor: pointer;
+    background: #665;
+  }
+}
+
+.mixerIndication {
+  position: absolute;
+  left: -12%;
+  bottom: 8%;
+  font-size: .75em;
+  color: $red;
+  font-weight: bold;
+}
+
+.arrow {
+  position: absolute;
+  left: 15%;
+  bottom: 5%;
+  animation: shake .5s ease-in-out infinite;
+  font-size: 2em;
+  color: #000;
+}
+
+.title {
+  width: 100%;
+  text-align: center;
+  margin: 100px auto;
+  text-shadow: 1px 1px 1px #999;
+  animation: titleColor 4s linear infinite;
+}
+
+@keyframes titleColor {
+    0% { color: $red; }
+    50% { color: $green; }
+    100% { color: $blue; }
+}
+
+@keyframes shake {
+  10%,
+  90% {
+    transform: translate3d(-4%, 0, 0);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(-2%, 1%, 0);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-5%, 0, 0);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4%, 0, 0);
+  }
+}
