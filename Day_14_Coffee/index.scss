@@ -1,0 +1,96 @@
+$titleColor: #352624;
+$numberColor: #FFF;
+$nameColor: #503b36;
+$backgroundColor: #b79483;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+.content {
+  margin-top: 100px;
+  
+  .description {
+    color: #EEE;
+    text-align: center;
+  }
+
+  svg {
+    position: absolute;
+    bottom: 0;
+    height: 80%;
+    width: 80%;
+    left: 10%;
+    
+    #rightLip {
+      transform-origin: center;
+      animation: kissLeft 3s linear infinite alternate;
+    }
+    #leftLip {
+      transform-origin: center;
+      animation: kissRight 3s linear infinite alternate;
+    }
+    
+    #heart {
+      transform-origin: center;
+      animation: heart 3s linear infinite alternate;
+    }
+    
+    .cheek {
+      transform-origin: center;
+      animation: blush 3s linear infinite alternate;
+    }
+    .eyebrow {
+      transform-origin: center;
+      animation: eyebrow 3s linear infinite alternate;
+    }
+  }
+}
+
+text {
+  font-weight: bold;
+  fill: #FFF;
+  
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+@keyframes heart {
+  0% {transform: scale(1); opacity: 0.6}
+  100% {transform: scale(.8); opacity: 0.8}
+}
+
+@keyframes kissLeft {
+  0% {transform: scale(.9) rotate(0)}
+  100% {transform: scale(1) rotate(-5deg) translateX(-2px)}
+}
+@keyframes kissRight {
+  0% {transform: scale(.9) rotate(0)}
+  100% {transform: scale(1) rotate(5deg) translateX(2px)}
+}
+
+@keyframes blush {
+  0% {opacity: 0.4}
+  100% {opacity: 1}
+}
+@keyframes eyebrow {
+  0% {transform: translateY(0px)}
+  100% {transform: translateY(1px)}
+}
