@@ -17,13 +17,15 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **11** | :art: RGB | [RGB](https://codepen.io/RominaMartin/full/KrgXqW/) | - |
 | **12** | :bread: Bread | [Bread](https://codepen.io/RominaMartin/full/PxbVKr/) | - |
 | **13** | :black_circle: Black Hole | [Black Hole](https://codepen.io/RominaMartin/full/eQgwRM/) | - |
+| **14** | :coffee: Coffee | [Coffee](https://codepen.io/RominaMartin/full/gQWPxg/) | :heavy_check_mark: |
+| **15** | :fire: Fire | [Fire](https://codepen.io/RominaMartin/full/KrqMVw/) | - |
 
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/Xqmkdo/)
 
 
 ##Woaah!!
-:star: November first week spark link. Here you can find all the can not miss links.
+:star: November first week spark link. Here you can find _all the can not miss links_.
 
 # Author
 ### Romina Martín
