@@ -1,0 +1,69 @@
+$titleColor: #757780;
+$numberColor: #f0a2a2;
+$nameColor: #333;
+$backgroundColor: #8AF1E3;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+
+.content {
+  width: 40vw;
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 30vw;
+  
+  svg {
+    position: absolute;
+    bottom: 30px;
+
+    .cheek {
+      animation: toggleView 6s linear infinite;
+    }
+  }
+  .title {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 50vw;
+    animation: toggleView 6s linear infinite;
+    color: #333;
+  }
+}
+
+#trail {
+  transform-origin: center;
+  transform: scaleX(0);
+  animation: showTraill 5s ease-in-out infinite;
+}
+
+@keyframes toggleView {
+  from {opacity: 0}
+  to {opacity: 1}
+}
+
+@keyframes showTraill {
+  0% {transform: scaleX(0)}
+  60%,100% {transform: scaleX(1)}
+}
+

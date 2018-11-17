@@ -1,0 +1,51 @@
+$titleColor: #757780;
+$numberColor: #eee;
+$nameColor: #f8e48d;
+$backgroundColor: #ccc;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1,
+  h2 {
+    margin: 0;
+  }
+
+  h1 {
+    color: $titleColor;
+  }
+  .number {
+    color: $numberColor;
+  }
+  .type {
+    color: $nameColor;
+  }
+  .social a img {
+    margin-top: 10px;
+    height: 1.5em;
+  }
+}
+
+.content {
+  width: 60%;
+  left: 20%;
+  position: absolute;
+  bottom: 0;
+  
+  #crown {
+    transform-origin: center;
+    animation: wave 2s linear infinite alternate;
+  }
+}
+
+@keyframes wave {
+  from {transform: rotate(-5deg)}
+  to {transform: rotate(5deg)}
+}

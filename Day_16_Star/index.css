@@ -1,0 +1,104 @@
+body {
+  background: #8af1e3;
+  overflow: hidden;
+  font-family: "Quicksand";
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.header h1,
+.header h2 {
+  margin: 0;
+}
+.header h1 {
+  color: #757780;
+}
+.header .number {
+  color: #f0a2a2;
+}
+.header .type {
+  color: #333;
+}
+.header .social a img {
+  margin-top: 10px;
+  height: 1.5em;
+}
+
+.content {
+  width: 40vw;
+  height: 100vh;
+  position: absolute;
+  bottom: 0;
+  left: 30vw;
+}
+.content svg {
+  position: absolute;
+  bottom: 30px;
+}
+.content svg .cheek {
+  -webkit-animation: toggleView 6s linear infinite;
+          animation: toggleView 6s linear infinite;
+}
+.content .title {
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 50vw;
+  -webkit-animation: toggleView 6s linear infinite;
+          animation: toggleView 6s linear infinite;
+  color: #333;
+}
+
+#trail {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-transform: scaleX(0);
+          transform: scaleX(0);
+  -webkit-animation: showTraill 5s ease-in-out infinite;
+          animation: showTraill 5s ease-in-out infinite;
+}
+
+@-webkit-keyframes toggleView {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes toggleView {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes showTraill {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  60%,
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}
+@keyframes showTraill {
+  0% {
+    -webkit-transform: scaleX(0);
+            transform: scaleX(0);
+  }
+  60%,
+  100% {
+    -webkit-transform: scaleX(1);
+            transform: scaleX(1);
+  }
+}

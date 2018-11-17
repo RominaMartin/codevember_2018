@@ -18,7 +18,9 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **12** | :bread: Bread | [Bread](https://codepen.io/RominaMartin/full/PxbVKr/) | - |
 | **13** | :black_circle: Black Hole | [Black Hole](https://codepen.io/RominaMartin/full/eQgwRM/) | - |
 | **14** | :coffee: Coffee | [Coffee](https://codepen.io/RominaMartin/full/gQWPxg/) | :heavy_check_mark: |
-| **15** | :fire: Fire | [Fire](https://codepen.io/RominaMartin/full/KrqMVw/) | - |
+| **15** | :fire: Fire | [Fire](https://codepen.io/RominaMartin/full/KrqMVw/) | :heavy_check_mark: |
+| **16** | :star: Star | [Star](https://codepen.io/RominaMartin/full/RqZGwO/) | - |
+| **17** | :crown: Crown | [Crown](https://codepen.io/RominaMartin/full/bQrQNm/) | - |
 
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/Xqmkdo/)

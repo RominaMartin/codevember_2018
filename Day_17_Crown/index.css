@@ -1,0 +1,63 @@
+body {
+  background: #ccc;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.header h1,
+.header h2 {
+  margin: 0;
+}
+.header h1 {
+  color: #757780;
+}
+.header .number {
+  color: #eee;
+}
+.header .type {
+  color: #f8e48d;
+}
+.header .social a img {
+  margin-top: 10px;
+  height: 1.5em;
+}
+
+.content {
+  width: 60%;
+  left: 20%;
+  position: absolute;
+  bottom: 0;
+}
+.content #crown {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: wave 2s linear infinite alternate;
+          animation: wave 2s linear infinite alternate;
+}
+
+@-webkit-keyframes wave {
+  from {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  to {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+}
+
+@keyframes wave {
+  from {
+    -webkit-transform: rotate(-5deg);
+            transform: rotate(-5deg);
+  }
+  to {
+    -webkit-transform: rotate(5deg);
+            transform: rotate(5deg);
+  }
+}
