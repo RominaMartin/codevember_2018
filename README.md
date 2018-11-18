@@ -21,6 +21,7 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **15** | :fire: Fire | [Fire](https://codepen.io/RominaMartin/full/KrqMVw/) | :heavy_check_mark: |
 | **16** | :star: Star | [Star](https://codepen.io/RominaMartin/full/RqZGwO/) | - |
 | **17** | :crown: Crown | [Crown](https://codepen.io/RominaMartin/full/bQrQNm/) | - |
+| **18** | :raised_back_of_hand: Paper | [Paper](https://codepen.io/RominaMartin/full/vQegvr/) | - |
 
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/Xqmkdo/)

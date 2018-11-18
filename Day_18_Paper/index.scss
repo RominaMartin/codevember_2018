@@ -1,0 +1,55 @@
+$titleColor: #eee;
+$numberColor: #f0a2a2;
+$nameColor: #999;
+$backgroundColor: #405663;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+  user-select: none;
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+
+.content {
+  width: 40%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  height: 100%;
+  
+  #winner {
+    position: absolute;
+    top: -50px;
+    width: 100%;
+    text-align: center;
+    color: #87BCDE;
+  }
+  
+  #action {
+    width: 60%;
+    left: 20%;
+    position: absolute;
+    bottom: 40%;
+  }
+  #selection {
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+  }
+}

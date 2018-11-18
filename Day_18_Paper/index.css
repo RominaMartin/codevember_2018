@@ -1,0 +1,58 @@
+body {
+  background: #405663;
+  overflow: hidden;
+  font-family: "Quicksand";
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.header h1, .header h2 {
+  margin: 0;
+}
+.header h1 {
+  color: #eee;
+}
+.header .number {
+  color: #f0a2a2;
+}
+.header .type {
+  color: #999;
+}
+.header .social a img {
+  margin-top: 10px;
+  height: 1.5em;
+}
+
+.content {
+  width: 40%;
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  height: 100%;
+}
+.content #winner {
+  position: absolute;
+  top: -50px;
+  width: 100%;
+  text-align: center;
+  color: #87BCDE;
+}
+.content #action {
+  width: 60%;
+  left: 20%;
+  position: absolute;
+  bottom: 40%;
+}
+.content #selection {
+  height: 60%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
