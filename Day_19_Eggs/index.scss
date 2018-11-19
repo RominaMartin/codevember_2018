@@ -1,0 +1,56 @@
+$titleColor: #fff3c9;
+$numberColor: #996E4F;
+$nameColor: #603913;
+$backgroundColor: #46B295;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+  user-select: none;
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+
+.content {
+  width: 80%;
+  position: absolute;
+  left: 10%;
+  bottom: 0%;
+}
+// #rightEyezone {
+//   cursor: pointer;
+// }
+.right_arrow, .left_arrow {
+  cursor: pointer
+}
+.right_arrow {
+  animation: rightSwing 1s linear infinite alternate;
+}
+.left_arrow {
+  animation: leftSwing 1s linear infinite alternate;
+}
+
+@keyframes rightSwing {
+  0% {transform: translatex(0)}
+  50% {transform: translatex(4px)}
+  100% {transform: translatex(6px)}
+}
+@keyframes leftSwing {
+  0% {transform: translatex(0)}
+  50% {transform: translatex(-4px)}
+  100% {transform: translatex(-6px)}
+}
