@@ -1,0 +1,178 @@
+body {
+  background: #534363;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.header h1, .header h2 {
+  margin: 0;
+}
+.header h1 {
+  color: #eee;
+}
+.header .number {
+  color: #f0a2a2;
+}
+.header .type {
+  color: #64ae8f;
+}
+.header .social a img {
+  margin-top: 10px;
+  height: 1.5em;
+}
+
+.content {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+#hearts {
+  -webkit-transform-origin: 50%;
+          transform-origin: 50%;
+  -webkit-animation: beat 3s linear infinite;
+          animation: beat 3s linear infinite;
+}
+
+#coolHair {
+  -webkit-animation: coolHair 3s linear infinite;
+          animation: coolHair 3s linear infinite;
+}
+
+#eyebrow {
+  -webkit-animation: wink 1.5s linear infinite alternate;
+          animation: wink 1.5s linear infinite alternate;
+}
+
+#rightSock {
+  -webkit-transform-origin: center;
+          transform-origin: center;
+  -webkit-animation: wink, swing .75s linear infinite alternate;
+          animation: wink, swing .75s linear infinite alternate;
+}
+
+@-webkit-keyframes swing {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+
+@keyframes swing {
+  from {
+    -webkit-transform: rotate(0);
+            transform: rotate(0);
+  }
+  to {
+    -webkit-transform: rotate(2deg);
+            transform: rotate(2deg);
+  }
+}
+@-webkit-keyframes wink {
+  from {
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+  }
+  to {
+    -webkit-transform: translatey(-2px);
+            transform: translatey(-2px);
+  }
+}
+@keyframes wink {
+  from {
+    -webkit-transform: translatey(0);
+            transform: translatey(0);
+  }
+  to {
+    -webkit-transform: translatey(-2px);
+            transform: translatey(-2px);
+  }
+}
+@-webkit-keyframes coolHair {
+  0% {
+    fill: #64AE8F;
+  }
+  25% {
+    fill: #4D6CFA;
+  }
+  50% {
+    fill: #FF9B71;
+  }
+  75% {
+    fill: #361134;
+  }
+  100% {
+    fill: #F391A0;
+  }
+}
+@keyframes coolHair {
+  0% {
+    fill: #64AE8F;
+  }
+  25% {
+    fill: #4D6CFA;
+  }
+  50% {
+    fill: #FF9B71;
+  }
+  75% {
+    fill: #361134;
+  }
+  100% {
+    fill: #F391A0;
+  }
+}
+@-webkit-keyframes beat {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes beat {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  25% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  40% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  60% {
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}

@@ -1,0 +1,98 @@
+$titleColor: #eee;
+$numberColor: #f0a2a2;
+$nameColor: #64ae8f;
+$backgroundColor: #534363;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+
+.content {
+  width: 50%;
+  position: absolute;
+  bottom: 0;
+  left: 25%;
+}
+
+#hearts {
+  transform-origin: 50%;
+  animation: beat 3s linear infinite;
+}
+
+#coolHair {
+  animation: coolHair 3s linear infinite;
+}
+
+#eyebrow {
+  animation: wink 1.5s linear infinite alternate;
+}
+
+#rightSock {
+  transform-origin: center;
+  animation: wink, swing .75s linear infinite alternate;
+  
+}
+
+
+@keyframes swing {
+  from {transform: rotate(0)}
+  to {transform: rotate(2deg)}
+}
+
+@keyframes wink {
+  from {transform: translatey(0)}
+  to {transform: translatey(-2px)}
+}
+
+@keyframes coolHair {
+  0% {
+    fill: #64AE8F;
+  }
+  25% {
+    fill: #4D6CFA;
+  }
+  50% {
+    fill: #FF9B71;
+  }
+  75% {
+    fill: #361134;
+  }
+  100% {
+    fill: #F391A0;
+  }
+}
+
+@keyframes beat {
+  0% {
+    transform: scale(1);
+  }
+  25% {
+    transform: scale(1.05);
+  }
+  40% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.05);
+  }
+  100% {
+    transform: scale(1);
+  }
+}

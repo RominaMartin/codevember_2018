@@ -1,4 +1,4 @@
-# Codevember 2017
+# Codevember 2018
 
 Codevember is a challenge for developers making a creative sketch by day during the whole month of November. 
 
@@ -17,19 +17,23 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **11** | :art: RGB | [RGB](https://codepen.io/RominaMartin/full/KrgXqW/) | - |
 | **12** | :bread: Bread | [Bread](https://codepen.io/RominaMartin/full/PxbVKr/) | - |
 | **13** | :black_circle: Black Hole | [Black Hole](https://codepen.io/RominaMartin/full/eQgwRM/) | - |
-| **14** | :coffee: Coffee | [Coffee](https://codepen.io/RominaMartin/full/gQWPxg/) | :heavy_check_mark: |
+| **14** | :coffee: Coffee | [Coffee](https://codepen.io/RominaMartin/full/gQWPxg/) | :star: |
 | **15** | :fire: Fire | [Fire](https://codepen.io/RominaMartin/full/KrqMVw/) | :heavy_check_mark: |
 | **16** | :star: Star | [Star](https://codepen.io/RominaMartin/full/RqZGwO/) | - |
-| **17** | :crown: Crown | [Crown](https://codepen.io/RominaMartin/full/bQrQNm/) | - |
+| **17** | :crown: Crown | [Crown](https://codepen.io/RominaMartin/full/bQrQNm/) | :heavy_check_mark: |
 | **18** | :raised_back_of_hand: Paper | [Paper](https://codepen.io/RominaMartin/full/vQegvr/) | - |
-| **19** | :egg: Eggs | [Eggs](https://codepen.io/RominaMartin/full/MzOjVJ/) | - |
+| **19** | :egg: Eggs | [Eggs](https://codepen.io/RominaMartin/full/MzOjVJ/) | :heavy_check_mark: |
+| **20** | :egg: Socks | [Socks](https://codepen.io/RominaMartin/full/bQaRov/) | - |
 
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/Xqmkdo/)
 
 
-##Woaah!!
-:star: November first week spark link. Here you can find _all the can not miss links_.
+##WOAAAAAH!!
+:star: November first AND second week spark link! Here you can find _all the can not miss links_.
+
+[First week](https://codepen.io/spark/102)
+[Second week](https://codepen.io/spark/103)
 
 # Author
 ### Romina Martín
