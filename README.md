@@ -23,16 +23,18 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **17** | :crown: Crown | [Crown](https://codepen.io/RominaMartin/full/bQrQNm/) | :heavy_check_mark: |
 | **18** | :raised_back_of_hand: Paper | [Paper](https://codepen.io/RominaMartin/full/vQegvr/) | - |
 | **19** | :egg: Eggs | [Eggs](https://codepen.io/RominaMartin/full/MzOjVJ/) | :heavy_check_mark: |
-| **20** | :egg: Socks | [Socks](https://codepen.io/RominaMartin/full/bQaRov/) | - |
+| **20** | :socks: Socks | [Socks](https://codepen.io/RominaMartin/full/bQaRov/) | :heavy_check_mark: |
+| **21** | :skateboard: Skate | [Skate](https://codepen.io/RominaMartin/full/EOQbbJ/) | - |
 
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/Xqmkdo/)
 
 
-##WOAAAAAH!!
-:star: November first AND second week spark link! Here you can find _all the can not miss links_.
+## WOAAAAAH!!
+:star: -> November first AND second week spark link! Here you can find _all the can not miss links_.
 
 [First week](https://codepen.io/spark/102)
+
 [Second week](https://codepen.io/spark/103)
 
 # Author
