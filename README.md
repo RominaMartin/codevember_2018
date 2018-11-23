@@ -23,8 +23,9 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **17** | :crown: Crown | [Crown](https://codepen.io/RominaMartin/full/bQrQNm/) | :heavy_check_mark: |
 | **18** | :raised_back_of_hand: Paper | [Paper](https://codepen.io/RominaMartin/full/vQegvr/) | - |
 | **19** | :egg: Eggs | [Eggs](https://codepen.io/RominaMartin/full/MzOjVJ/) | :heavy_check_mark: |
-| **20** | :socks: Socks | [Socks](https://codepen.io/RominaMartin/full/bQaRov/) | :heavy_check_mark: |
-| **21** | :skateboard: Skate | [Skate](https://codepen.io/RominaMartin/full/EOQbbJ/) | - |
+| **20** | :shoe: Socks | [Socks](https://codepen.io/RominaMartin/full/bQaRov/) | :heavy_check_mark: |
+| **21** | :snowboarder: Skate | [Skate](https://codepen.io/RominaMartin/full/EOQbbJ/) | :heavy_check_mark: |
+| **22** | :key: Key | [Key](https://codepen.io/RominaMartin/full/dQmVrw/) | - |
 
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/Xqmkdo/)
