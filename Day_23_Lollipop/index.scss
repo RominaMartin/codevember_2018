@@ -1,0 +1,43 @@
+$titleColor: #757780;
+$numberColor: #f0a2a2;
+$nameColor: #333;
+$backgroundColor: #eee;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+
+.content {
+  position: absolute;
+  left: 10%;
+  bottom: -5px;
+  width: 80%;
+  
+  
+  .rotate {
+    transform-origin: 49% 23%;
+    animation: rotate 2s linear infinite;
+  } 
+}
+
+@keyframes rotate {
+  from {transform: rotate(0)}
+  to { transform: rotate(360deg)}
+}
