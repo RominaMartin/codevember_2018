@@ -1,0 +1,89 @@
+body {
+  background: #0d0817;
+  overflow: hidden;
+  font-family: "Quicksand";
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+.header {
+  position: absolute;
+  z-index: 3;
+  left: 10px;
+  top: 10px;
+}
+.header h1, .header h2 {
+  margin: 0;
+}
+.header h1 {
+  color: #757780;
+}
+.header .number {
+  color: #ccb54c;
+}
+.header .type {
+  color: #333;
+}
+.header .social a img {
+  margin-top: 10px;
+  height: 1.5em;
+}
+
+#cover {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #0d0817;
+  z-index: 2;
+  opacity: .9;
+  animation: lights 4s ease-in-out infinite reverse;
+}
+
+.content {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+
+#top {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  z-index: 1;
+  max-width: 880px;
+}
+
+#bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: 0;
+}
+
+.light, .shadow {
+  opacity: 0;
+  -webkit-animation: lights 4s ease-in-out infinite;
+          animation: lights 4s ease-in-out infinite;
+}
+
+@-webkit-keyframes lights {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .8;
+  }
+}
+
+@keyframes lights {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: .8;
+  }
+}
