@@ -29,8 +29,9 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **23** | :lollipop: Lollipop | [Lollipop](https://codepen.io/RominaMartin/full/JevbaM/) | :heavy_check_mark: |
 | **24** | :printer: Printer | [Printer](https://codepen.io/RominaMartin/full/JeByOV/) | :heavy_check_mark: |
 | **25** | :wrench: Screwdriver | [Screwdriver](https://codepen.io/RominaMartin/full/mQjBNK/) | - |
-| **26** | :bed: Bed | [Bed](https://codepen.io/RominaMartin/full/LXgqgV/) | - |
-| **27** | :bed: Man Bun | [Man Bun](https://codepen.io/RominaMartin/full/JeezeR/) | - |
+| **26** | :bed: Bed | [Bed](https://codepen.io/RominaMartin/full/LXgqgV/) | :heavy_check_mark: |
+| **27** | :barber: Man Bun | [Man Bun](https://codepen.io/RominaMartin/full/JeezeR/) | - |
+| **28** | :speaker: Speakers | [Speakers](https://codepen.io/RominaMartin/full/eQQadV/) | - |
 
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/Xqmkdo/)
