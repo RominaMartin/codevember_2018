@@ -1,0 +1,63 @@
+body {
+  background: #F4F0D3;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.header h1,
+.header h2 {
+  margin: 0;
+}
+.header h1 {
+  color: #757780;
+}
+.header .number {
+  color: #C67045;
+}
+.header .type {
+  color: #333;
+}
+.header .social a img {
+  margin-top: 10px;
+  height: 1.5em;
+}
+
+.content {
+  margin: 50px auto;
+  width: 40%;
+  max-width: 400px;
+}
+.content svg #moustache {
+  stroke: #C67045;
+}
+.content svg #hair {
+  stroke: #C67045;
+}
+.content svg #face {
+  stroke: #FFDAC4;
+}
+.content svg path {
+  stroke-dasharray: 20;
+  stroke-dashoffset: 75;
+  -webkit-animation: line 3s linear alternate infinite;
+          animation: line 3s linear alternate infinite;
+}
+
+@-webkit-keyframes line {
+  to {
+    stroke-dashoffset: 200;
+    stroke: #333;
+  }
+}
+
+@keyframes line {
+  to {
+    stroke-dashoffset: 200;
+    stroke: #333;
+  }
+}
