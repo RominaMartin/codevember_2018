@@ -1,0 +1,52 @@
+body {
+  background: #eee;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+}
+.header h1, .header h2 {
+  margin: 0;
+}
+.header h1 {
+  color: #757780;
+}
+.header .number {
+  color: #adcc61;
+}
+.header .type {
+  color: #333;
+}
+.header .social a img {
+  margin-top: 10px;
+  height: 1.5em;
+}
+
+.description {
+  width: 100%;
+  text-align: center;
+  margin: 100px auto;
+  color: #5e868e;
+}
+
+.content {
+  position: absolute;
+  bottom: -5px;
+  width: 60%;
+  left: 20%;
+}
+
+#door {
+  transition: -webkit-transform 2s;
+  transition: transform 2s;
+  transition: transform 2s, -webkit-transform 2s;
+}
+
+#door:hover {
+  -webkit-transform: translatex(-15%);
+          transform: translatex(-15%);
+}

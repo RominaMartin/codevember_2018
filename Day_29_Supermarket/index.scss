@@ -1,0 +1,46 @@
+$titleColor: #757780;
+$numberColor: #adcc61;
+$nameColor: #333;
+$backgroundColor: #eee;
+
+body {
+  background: $backgroundColor;
+  overflow: hidden;
+  font-family: "Quicksand";
+}
+
+.header {
+  position: absolute;
+  left: 10px;
+  top: 10px;
+  h1, h2 {margin: 0}
+  
+  h1 {color: $titleColor;}
+  .number {color: $numberColor;}
+  .type { color: $nameColor; }
+  .social a img { 
+    margin-top: 10px; 
+    height: 1.5em; 
+  }
+}
+
+.description {
+  width: 100%;
+  text-align: center;
+  margin: 100px auto;
+  color: #5e868e;
+}
+.content {
+  position: absolute;
+  bottom: -5px;
+  width: 60%;
+  left: 20%;
+}
+
+#door {
+  transition: transform 2s;
+}
+
+#door:hover {
+  transform: translatex(-15%);
+}
