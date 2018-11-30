@@ -31,8 +31,9 @@ Codevember is a challenge for developers making a creative sketch by day during 
 | **25** | :wrench: Screwdriver | [Screwdriver](https://codepen.io/RominaMartin/full/mQjBNK/) | - |
 | **26** | :bed: Bed | [Bed](https://codepen.io/RominaMartin/full/LXgqgV/) | :heavy_check_mark: |
 | **27** | :barber: Man Bun | [Man Bun](https://codepen.io/RominaMartin/full/JeezeR/) | - |
-| **27** | :barber: Man Bun | [Man Bun](https://codepen.io/RominaMartin/full/JeezeR/) | - |
+| **28** | :speaker: Speakers | [Speakers](https://codepen.io/RominaMartin/full/eQQadV/) | - |
 | **29** | :shopping_cart: Supermarket | [Supermarket](https://codepen.io/RominaMartin/full/jQXOpd/) | - |
+| **30** | :computer: Computer | [Computer](https://codepen.io/RominaMartin/full/mQaNvQ/) | - |
 
 
 You can access the codepen whole collection from [here](https://codepen.io/collection/Xqmkdo/)
